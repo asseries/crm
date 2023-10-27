@@ -1,0 +1,127 @@
+name: crm
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  wave_transition:
+  cupertino_icons:
+  intl:
+  provider:
+  shared_preferences:
+  dio:
+  cached_network_image:
+  event_bus:
+  flutter_animate:
+  fluttertoast:
+  flutter_bloc:
+  flutter_phone_direct_caller:
+  flutter_sms:
+  contacts_service:
+  phone_state:
+  flutter_background_service: #^2.4.6
+  device_info_plus:
+  collection:
+  package_info_plus:
+  coachmaker:
+  permission_handler:
+  url_launcher:
+  hive_flutter:
+  hive:
+  blured_navigation_bar_x:
+  as_toast_x:
+  stacked: ^3.4.1
+  alice:
+  http:
+  http_parser:
+  path_provider:
+  easy_folder_picker:
+  multipart_request_null_safety:
+  flutter_local_notifications:
+  animated_page_transition:
+  restart_app:
+  audioplayers:
+  media_info:
+  phone_state_background:
+  call_log:
+  d_chart:
+  liquid_progress_indicator: ^0.4.0
+  phone_plus:
+  custom_ping:
+  flutter_launcher_icons:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+  build_runner:
+  hive_generator:
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo_bdm.png"       # flutter pub get
+  remove_alpha_ios: true                     # flutter pub run flutter_launcher_icons:main
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - android/app/src/main/kotlin/uz/bdm/
+    - android/app/src/main/kotlin/
+    - android/app/src/main/kotlin/uz/
+    - assets/lang/
+    - assets/svg/
+    - assets/
+    - assets/json/
+    - assets/font/
+    - assets/images/
+    - assets/music/
+    - assets/file/
+    - assets/3d/
+
+  fonts:
+    - family: ballo
+      fonts:
+        - asset: assets/font/ballo.ttf
+
+    - family: med
+      fonts:
+        - asset: assets/font/as_med.ttf
+
+    - family: bold
+      fonts:
+        - asset: assets/font/as_bold.ttf
+
+    - family: thin
+      fonts:
+        - asset: assets/font/as_thin.ttf
+
+    - family: p_light
+      fonts:
+        - asset: assets/font/poppin_light.ttf
+
+    - family: p_med
+      fonts:
+        - asset: assets/font/poppin_medium.ttf
+
+    - family: p_bold
+      fonts:
+        - asset: assets/font/poppin_bold.ttf
+
+    - family: p_reg
+      fonts:
+        - asset: assets/font/poppin_regular.ttf
+
+    - family: p_semi
+      fonts:
+        - asset: assets/font/poppin_semibold.ttf
+
